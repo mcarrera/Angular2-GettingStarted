@@ -12,7 +12,7 @@ import { Component } from '@angular/core';
     // directive name to be used in HTML
     selector: 'pm-app', 
     // view layout
-    template: '<div><h1>{{pageTitle}}</h1><div>First Component</div></div>'
+    template: '<div><h1>{{pageTitle}}</h1><pm-products></pm-products></div>'
 })
 
 // class signature
